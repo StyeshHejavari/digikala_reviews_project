@@ -1,0 +1,5 @@
+dataset,target,samples,accuracy,macro_f1,balanced_accuracy
+Real test,recommendation_status,10000,0.78,0.7786439262775965,0.7773759576827951
+Real test,rating_band,10000,0.7598,0.7568023628318814,0.7558008876915384
+Agent-generated test,recommendation_status,10000,0.8578,0.852402516702302,0.8520790876975585
+Agent-generated test,rating_band,10000,0.8219,0.8137603202184658,0.8122386673694436
