@@ -1,0 +1,30 @@
+# Data Processing
+numpy
+pandas
+
+# Machine Learning
+scikit-learn
+joblib
+
+# Deep Learning and Transformers
+torch
+transformers
+accelerate
+safetensors
+sentencepiece
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Jupyter Notebook
+jupyter
+ipykernel
+
+# FastAPI
+fastapi
+uvicorn[standard]
+
+# Testing
+pytest
+httpx
