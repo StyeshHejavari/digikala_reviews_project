@@ -33,7 +33,7 @@ The main model input is the review body (`body`).
 The following targets are used:
 
 | Task | Target | Classes |
-|---|---|---|
+| --- | --- | --- |
 | Recommendation Classification | `recommendation_status` | `recommended`, `not_recommended`, `no_idea` |
 | Rating-Band Classification | `rating_band` | `low`, `medium`, `high` |
 
@@ -129,9 +129,10 @@ digikala_reviews_project/
 │
 ├── notebooks/
 │   ├── 01_descriptive_analysis.ipynb
-│   ├── 02_baselines.ipynb
-│   ├── 03_transfer_learning_finetuning.ipynb
-│   └── 04_semi_supervised.ipynb
+│   ├── 02_data_cleaning_normalization.ipynb
+│   ├── 03_data_size_experiment.ipynb
+│   ├── 04_transfer_learning_finetuning.ipynb
+│   └── 05_semi_supervised.ipynb
 │
 ├── artifacts/ 
 │    ├── semi_supervised/
@@ -155,7 +156,7 @@ The `data/` directory contains the original dataset, cleaned and normalized vers
 ### Data Categories
 
 | Category | Description |
-|---|---|
+| --- | --- |
 | Raw Data | Original Digikala comments and product datasets. |
 | Cleaned Data | Reviews after data cleaning and preprocessing. |
 | Normalized Data | Persian text after normalization. |
