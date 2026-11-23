@@ -1,0 +1,17 @@
+{
+    "model_name": "HooshvareLab/bert-fa-base-uncased",
+    "model_type": "Semi-Supervised MultiTaskParsBERT",
+    "training_method": "Pseudo Labeling",
+    "max_length": 128,
+    "dropout_rate": 0.3,
+    "num_classes": 3,
+    "recommendation_labels": [
+        "recommended",
+        "not_recommended",
+        "no_idea"
+    ],
+    "rating_head_trained": false,
+    "confidence_threshold": 0.9,
+    "best_epoch": 1,
+    "best_validation_macro_f1": 0.7763748930293571
+}

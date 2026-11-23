@@ -1,0 +1,18 @@
+{
+    "model_name": "HooshvareLab/bert-fa-base-uncased",
+    "model_type": "MultiTaskParsBERT",
+    "max_length": 128,
+    "dropout_rate": 0.3,
+    "recommendation_labels": [
+        "recommended",
+        "not_recommended",
+        "no_idea"
+    ],
+    "rating_labels": [
+        "low",
+        "medium",
+        "high"
+    ],
+    "best_epoch": 2,
+    "best_validation_score": 0.7144722277999228
+}

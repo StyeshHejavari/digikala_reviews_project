@@ -1,0 +1,49 @@
+{
+    "model_type": "TF-IDF + Logistic Regression",
+    "targets": {
+        "recommendation_status": {
+            "vectorizer_file": "recommendation_status_vectorizer.joblib",
+            "model_file": "recommendation_status_model.joblib",
+            "classes": [
+                "no_idea",
+                "not_recommended",
+                "recommended"
+            ],
+            "vectorizer_parameters": {
+                "max_features": 50000,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "min_df": 2,
+                "sublinear_tf": true
+            },
+            "classifier_parameters": {
+                "max_iter": 1000,
+                "class_weight": "balanced"
+            }
+        },
+        "rating_band": {
+            "vectorizer_file": "rating_band_vectorizer.joblib",
+            "model_file": "rating_band_model.joblib",
+            "classes": [
+                "high",
+                "low",
+                "medium"
+            ],
+            "vectorizer_parameters": {
+                "max_features": 50000,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "min_df": 2,
+                "sublinear_tf": true
+            },
+            "classifier_parameters": {
+                "max_iter": 1000,
+                "class_weight": "balanced"
+            }
+        }
+    }
+}
